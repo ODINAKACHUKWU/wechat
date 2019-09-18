@@ -4,3 +4,25 @@
     width: auto;
     vertical-align: middle;
 }
+
+.room-nav-link {
+    border: 1px solid lighten($color: #d4e5fb, $amount: 0);
+    background: lighten($color: #e3f3ff, $amount: 0);
+
+    & + .room-nav-link {
+        border-top: 0 none;
+    }
+}
+
+.chat {
+    bottom: 1px solid lighten($color: #3f3f3f, $amount: 0);
+    background: lighten($color: #ececec, $amount: 0);
+    height: 50vh;
+    border-radius: 5px 5px 0 0;
+    overflow-y: auto;
+}
+
+.chat-input {
+    border-top: 0 none;
+    border-radius: 0 0 5px 5px;
+}
